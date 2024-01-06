@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    color: #495057; /* Dark gray text */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: #00796b; /* Dark teal for h1 */
+}
+
+h2 {
+    color: #4caf50; /* Green for h2 */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+#team-members {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#data-display {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #00796b; /* Dark teal for header */
+    color: #fff;
+}
+
+#charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.chart-container {
+    width: 100%; /* Make the chart container take the full width */
+    max-width: 800px; /* Adjust the maximum width for a larger chart */
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+}
+
+/* Added more space between tables */
+.table {
+    margin-bottom: 40px;
+    background-color: #f0f2f5; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    background-color: #e0e0e0; /* Light gray */
+}
+
+.table th {
+    color: #4caf50; /* Green for header */
+}
+
+/* Navigation styling */
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    border: #00796b;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff; /* Dark teal for navigation links */
+    background-color: #00796b;
+}
+
+.navigation a:hover {
+    background-color: #025a50;
+}
